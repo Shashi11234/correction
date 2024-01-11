@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    width:100vw;
+    height:100vh;
+}
+.Main{
+    background-color: white;
+    width:99%;
+    height:100%;
+    border-radius:20px;
+    margin:0.2%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+.NavBar{
+    width:4%;
+    height:100%;
+    background-color: aqua;
+    border-radius: 20px 0px 0px 20px;
+}
+.Profile{
+    width:24%;
+    height:100%;
+    background-color:rgb(247, 217, 217);
+    overflow: hidden;
+
+}
+.Goal{
+    width:50%;
+    height:100%;
+    background-color: blueviolet;
+}
+.Strategy{
+    width:26%;
+    height:100%;
+    background-color: black;
+    border-radius: 0px 20px 20px 0px;
+}
+.Flex_1{
+    width:100%;
+    height:10%;
+    display: flex;
+    margin-top: 1rem;
+}
+#NM{
+    font-size: 4vmin;
+    margin-left:0.9rem;
+    margin-top:10px;
+}
+.Image{
+    width:19%;
+    height:90%;
+    border-radius: 50px;
+    background-color: black;
+    margin-left: 30px;
+}
+#w{
+    font-size:2.6vmin ;
+    color:rgb(76, 68, 68)
+}
+.Flex_2{
+    width:100%;
+    height:40%;
+    margin:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:3vmin;
+    margin-top: 6vmin;
+}
+h3{
+    font-size: 4vmin;
+}
+h4{
+    font-size:3vmin;
+}
+h2{
+    font-size: 4vmin;
+}
+#ac{
+    font-size: 2.1vmin;
+}
+#btn{
+    width:20vmin;
+    height:7vmin;
+    background-color: rgb(66, 66, 231);
+    color:white;
+    text-align: center;
+    border-radius: 1.5vmin;
+    font-size: 2.5vmin;
+}
+.Flex_3{
+    width:100%;
+    height:50%;
+    display:flex;
+    flex-direction: column;
+    margin-left: 38px;
+    gap:3vmin;
+}
+h5{
+    font-size: 2.5vmin;
+    margin-top: 3%;
+}
+p{
+    font-size: 1.8vmin;
+}
+h6{
+    font-size:1.7vmin;
+}
+hr{
+    width:34vmin;
+}
